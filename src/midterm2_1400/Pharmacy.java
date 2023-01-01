@@ -8,7 +8,7 @@ public class Pharmacy {
 
     private Prescription prescription;
     private RandomAccessFile file;
-    private final String path = "C:\\temp\\Pharmacy.dat";
+    private final String path = "Pharmacy.dat";
 
     public Pharmacy() throws FileNotFoundException {
         prescription = new Prescription();
